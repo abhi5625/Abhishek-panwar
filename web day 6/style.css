@@ -1,0 +1,54 @@
+#header{
+    background-color: yellow;
+    height: 700px;
+    background-image: url(https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/44549/kushaq-exterior-right-front-three-quarter-52.jpeg?q=75);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-position: center center;
+
+}
+span{
+    display: inline;
+    background-color: aqua;
+}
+nav{
+    background-color: aqua;
+    
+}
+nav ul{
+    margin: 0PX;
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline;
+    height: 0;
+    width: 10px;
+
+}
+body{
+    margin: 0px;
+    text-align: right;
+    padding: 10px;
+
+}
+nav ul li a 
+
+{
+    text decoration:dotted;
+    color:black;
+    cursor:copy;
+
+
+}
+nav ul li:hover{
+    background-color:blue ;
+    color: white;
+}
+nav{
+    margin: 0px;
+    padding: 10px 5px;
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 1px;
+}
