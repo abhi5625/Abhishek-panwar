@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> control statement</title>
+</head>
+<body>
+    <p> switch is<span id="bulbswitch">off</span></p>
+    <button onclick="toggleswitch()"> switch on/off</button>
+</body>
+
+    <script>
+function toggleswitch(){
+    var realValue = document.getElementById("bulbswitch").innertext;
+
+    if(realValue == "off"){
+        console.log("realValue","realvalue");
+        document.getElementById("bulbswitch").innertext = "on";
+        document.getElementById("bulbswitch").style.backgroundColor = "yellow"
+
+}else{
+    console.log("realValue","realvalue");
+    document.getElementById("bulbswitch").innertext = "off";
+    document.getElementById("bulbswitch").style.backgroundColor = "blue"
+
+}
+}
+
+let day of week = [ 'monday''tuesday''wednesday''thursday''friday''saturday''sunday']
+cosole.log("day of week at 0 index is" , day of week[6])
+
+
+    </script>
+    
+
+</html>
