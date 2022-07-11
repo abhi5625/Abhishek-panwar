@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>java script
-    </title>
+    <title>javascript</title>
 </head>
 <script>
-    function toggleDarkMode(){
+function toggleDarkMode(){
+     var abhishek = document.getElementById('darkMode').innertext;
 
-        var defaultValue = document.getElementById('darkMode').innerText;
+     if(abhishek == 'dark'){
+        document.getElementById('darkMode').innertext = "light";
+        document.getElementById('body').style.backgroundcolor = "black";
+        document.getElementById('body').style.color = "white";
+     }
+     else if(abhishek == 'light'){
+        document.getElementById('darkMode').innertext = "dark";
+        document.getElementById('body').style.backgroundcolor = "white";
+        document.getElementById('body').style.color = "black";
 
-        if(defaultValue == 'Dark'){
-            document.getElementById('darkMode').innerText = "Light";
-            document.getElementById('body').style.backgroundColor = "black";
-            document.getElementById('body').style.color = "white";
-        }
-        else if(defaultValue == 'Light'){
-            document.getElementById('darkMode').innerText = "Dark";
-            document.getElementById('body').style.backgroundColor = "white";
-            document.getElementById('body').style.color = "black";
-        }
-    }
+}
+}
+
+
 </script>
-</head>
 <body id="body">
-
-<button  onclick="toggleDarkMode()">Enable <span id="darkMode">Dark</span> Mode</button>
-<h1>Control Statement : Switch Case</h1>
+    <button onclick="toggleDarkMode()">ENABLE <span id="darkMode">Dark</span>Mode</button>
+    <h1> CONTROL STATEMENT : IF ELSE DARK MODE</h1>
+    
 </body>
 </html>
