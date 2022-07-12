@@ -1,29 +1,26 @@
-#class{
-    max-width: 400px;
-    margin: 10px auto;
-    box-shadow: 0px 0px 43px 17px rgba(153 , 153 , 153,1);
-}
-#class{
-    display: grid;
-    border: 2px solid black;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
-}
 .container{
-    text-align: right;
-    height: 70px;
-    line-height: 70px;
-    padding:16px 8px;
-    font-size: 25px;
-}
+    height:500px;
+    width:400px;
+    box-shadow: 0px 0px 17px 15px #3113c7;
+    text-align:bottom;
+    display: flex;
+    -moz-box-pack: end;
+    
+
+
+}    
 .button{
-    border:1px solid red;
-    line height: 100px;
-    text-align:center;
-    font-size:25px;
-    curser;pointer;
+    text-align: center;
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size:xx-large;
 }
-.button:hover{
-    background-color: blue;
-    color: brown;
+.buttons:hover{
+    background-color: #3113c7;
+    color:aliceblue;
     
 }
+
+
