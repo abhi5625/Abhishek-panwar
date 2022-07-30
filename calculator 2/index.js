@@ -12,9 +12,9 @@ function calculate(){
 alert("invalid");
     }
     function Clear(){
-        outputScreen.value = "";
+        clear.value = "";
     }
     function del(){
-        outputScreen.value = outputScreen.valueslice(0 ,-1); 
+        del.value = outputScreen.valueslice(0 ,-1); 
     }
 }
