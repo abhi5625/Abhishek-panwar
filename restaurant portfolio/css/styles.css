@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    color:orangered;
+    text-transform: uppercase;
+    margin: 50px;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+nav ul li{
+    text-transform: uppercase;
+    text-align: center;
+    float: right;
+   
+   
+}
+nav ul li a{
